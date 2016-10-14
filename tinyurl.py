@@ -20,7 +20,7 @@ Usage :
 """
 
 url="http://tinyurl.com/api-create.php?url="
-#input=raw_input("Enter the link you want to tiny : ")
+
 if len(sys.argv) != 2:
     usage();
     sys.exit(0);
